@@ -7,6 +7,7 @@ gem 'rails', '4.1.5'
 # Use sqlite3 snd rspec in the test and development environments
 group :development, :test do
 	gem 'sqlite3'
+	gem 'minitest'
 	gem 'rspec-rails','~>2.9.0'
 end
 
